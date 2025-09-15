@@ -1,0 +1,131 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.homePage-main {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--mine-shaft-950);
+}
+.navbar-info {
+  background: var(--mine-shaft-950);
+}
+.navbar-brand {
+  fill: var(--bright-sun-400);
+}
+a.nav-link {
+  color: var(--bright-sun-400);
+  transition: 0.5s ease;
+}
+a.nav-link:hover {
+  color: white;
+}
+.setting-btn {
+  background: var(--mine-shaft-900);
+  font-size: 22px;
+  padding: 1px 7px;
+}
+.setting-btn span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Deams jobs */
+.content-left h5 {
+  color: var(--bright-sun-400);
+  font-weight: bold;
+}
+.content-left h1 {
+  font-size: 60px;
+}
+.content-left span {
+  color: var(--bright-sun-400);
+}
+.content-left p {
+  line-height: 30px;
+  color: var(--mine-shaft-300);
+}
+.search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.search-box-one {
+  border-radius: 10px;
+  background: #333;
+  padding: 10px;
+  width: 33%;
+}
+
+.search-box .forminfo {
+  background: #333;
+  border: none;
+  color: white;
+  padding: 2px;
+  outline: none;
+  width: 168px;
+}
+
+.search-btn {
+  background: var(--bright-sun-400);
+  border: none;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.search-btn:hover {
+  background: var(--bright-sun-800);
+}
+.search-icons {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+.avtar-content {
+  border: 1px solid var(--bright-sun-400);
+  top: 50%;
+  left: 80%;
+  padding: 12px;
+  border-radius: 20px;
+}
+.avtar-content p {
+  color: var(--mine-shaft-300);
+  font-weight: bold;
+}
+.avtar-group {
+  gap: -10px;
+}
+.avatar {
+  width: 40px;
+  object-fit: cover;
+  height: 40px;
+  margin-left: -15px; /* overlap */
+  object-fit: cover;
+  z-index: 1;
+}
+.avatar:first-child {
+  margin-left: 0;
+}
+.avtar-group span {
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  z-index: 0;
+}
