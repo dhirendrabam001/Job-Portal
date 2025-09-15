@@ -42,25 +42,38 @@ const DreamsJob = () => {
         <div className="col-12 col-md-6 col-lg-6">
           <div className="content-right position-relative">
             <img src="/Boy.webp" className="img-fluid" alt="images" />
+            <div className="content-card position-absolute">
+              <div className="d-flex align-items-center gap-2">
+                <img src="/Google.webp" alt="Google" />
+                <div className="content-card-info">
+                  <h5>Software Engineer</h5>
+                  <p>Nepal</p>
+                </div>
+              </div>
+              <div className="content-card-2 d-flex align-items-center gap-2 mt-2 ms-2">
+                <p>1 days ago</p>
+                <p>150 application</p>
+              </div>
+            </div>
             <div className="avtar-content position-absolute">
               <p>100k+ got jobs</p>
               <div className="avtar-group d-flex align-items-center">
                 <img
                   src="/avtar-1.webp"
-                  class="rounded-circle avatar"
+                  className="rounded-circle avatar"
                   alt="User 1"
                 />
                 <img
                   src="/avtar-2.webp"
-                  class="rounded-circle avatar"
+                  className="rounded-circle avatar"
                   alt="User 2"
                 />
                 <img
                   src="/avtar-3.webp"
-                  class="rounded-circle avatar"
+                  className="rounded-circle avatar"
                   alt="User 3"
                 />
-                <span class="rounded-circle avatar avatar-more">+5</span>
+                <span className="rounded-circle avatar avatar-more">+5</span>
               </div>
             </div>
           </div>

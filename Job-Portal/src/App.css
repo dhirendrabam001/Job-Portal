@@ -89,12 +89,36 @@ a.nav-link:hover {
   color: white;
   font-weight: bold;
 }
+.content-card {
+  top: 25%;
+  border: 1px solid var(--bright-sun-400);
+  left: 1%;
+  padding: 6px 12px;
+  border-radius: 13px;
+}
+.content-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  background: var(--mine-shaft-850);
+}
+.content-card h5 {
+  font-size: 16px;
+  color: var(--mine-shaft-300);
+  font-weight: bold;
+}
+.content-card p {
+  font-size: 14px;
+  color: var(--mine-shaft-300);
+  margin-top: -7px;
+}
+
 .avtar-content {
   border: 1px solid var(--bright-sun-400);
   top: 50%;
   left: 80%;
   padding: 12px;
-  border-radius: 20px;
+  border-radius: 13px;
 }
 .avtar-content p {
   color: var(--mine-shaft-300);
@@ -128,4 +152,31 @@ a.nav-link:hover {
   align-items: center;
   margin-left: -10px;
   z-index: 0;
+}
+
+/* Company list */
+.company-info {
+  width: 100%;
+}
+.company-info span {
+  color: var(--bright-sun-400);
+}
+.marquee-info {
+  margin-top: 35px;
+}
+.marquee-info img {
+  width: 100px;
+  height: 100px;
+  transition: 0.5s ease;
+}
+.marquee-info img:hover {
+  background: var(--mine-shaft-800);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+/* job-category */
+.job-category {
+  width: 100%;
+  height: 100vh;
 }
