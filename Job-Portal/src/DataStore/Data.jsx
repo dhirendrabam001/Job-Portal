@@ -64,3 +64,34 @@ export const CategoryList = [
     jobs: "500+ new jobs posted",
   },
 ];
+
+export const TestimonialsList = [
+  {
+    img: "avtar.webp",
+    name: "Dhirendra Bam",
+    rating: 5.0,
+    description:
+      "This job portal made job search easy and quick. Recommended toall job seekers.",
+  },
+  {
+    img: "avtar-2.webp",
+    name: "Sudeep Bam",
+    rating: 4.5,
+    description:
+      "Found my dream job within a week! The application process was smooth.",
+  },
+  {
+    img: "avtar-3.webp",
+    name: "Prince Chand",
+    rating: 4.0,
+    description:
+      "I secured a job offer within days of applying. Exceptional user experience and support.",
+  },
+  {
+    img: "avtar-4.webp",
+    name: "Sher Chand",
+    rating: 5.0,
+    description:
+      "Highly efficient job portal with excellent resources. Helped me land a great position.",
+  },
+];
