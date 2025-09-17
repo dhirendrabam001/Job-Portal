@@ -178,7 +178,6 @@ a.nav-link:hover {
 /* job-category */
 .job-category {
   width: 100%;
-  height: 100vh;
 }
 .job-category span {
   color: var(--bright-sun-400);
@@ -216,4 +215,64 @@ small.text-muted {
   border-radius: 50%;
   margin-left: 41%;
   background: var(--bright-sun-300);
+}
+
+/* Work section */
+.work-info {
+  width: 100%;
+}
+.work-info p {
+  color: var(--mine-shaft-300);
+}
+.work-content-info {
+  border: 1px solid var(--bright-sun-300);
+  padding: 5px;
+  border-radius: 12px;
+  top: 18%;
+  left: 68%;
+}
+.work-content-info img {
+  width: 70px;
+  height: 70px;
+  background: var(--mine-shaft-950);
+  border-radius: 50%;
+  padding: 2px;
+}
+.work-content-info h4 {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  margin-top: 6px;
+}
+.work-content-info p {
+  font-size: 14px;
+}
+.work-content-right {
+  margin-left: 20%;
+}
+.work-content-icons {
+  background: var(--bright-sun-400);
+  padding: 6px 14px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.work-contents h2 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.work-contents p {
+  font-size: 15px;
+}
+
+/* Testimonials section */
+.testimonials-main {
+  width: 100%;
+  height: 100vh;
+}
+.testimonials-main p {
+  color: var(--mine-shaft-300);
+  font-size: 16px;
 }

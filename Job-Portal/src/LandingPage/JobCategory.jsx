@@ -44,7 +44,7 @@ const JobCategory = () => {
             <div key={key} className="">
               {" "}
               {/* padding for spacing */}
-              <div className="card mx-3 text-center shadow">
+              <div className="card mx-3 text-center shadow mt-5">
                 <img
                   src={`${items.img}`}
                   className="card-img-top"
