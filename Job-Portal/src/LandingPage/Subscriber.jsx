@@ -15,7 +15,7 @@ const Subscriber = () => {
               <div className="input-group mb-4">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Enter Your Email Address..."
                   aria-label="Recipient's username"
                   aria-describedby="basic-addon2"

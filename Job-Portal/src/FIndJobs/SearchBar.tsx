@@ -1,5 +1,10 @@
+
+
 const SearchBar = () => {
-  return <div>search bar</div>;
+  return (
+    <div>
+    </div>
+  );
 };
 
 export default SearchBar;

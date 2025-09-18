@@ -383,3 +383,19 @@ a.nav-link:hover {
 .footer-last span {
   color: var(--bright-sun-400);
 }
+
+/* Pages Routes finds a jobs */
+/* Pills (selected tags) */
+.input-info {
+  width: 100%;
+  background: var(--mine-shaft-950) !important;
+}
+.input-info .form-control {
+  width: 100%;
+}
+.input-form {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: var(--mine-shaft-950);
+}

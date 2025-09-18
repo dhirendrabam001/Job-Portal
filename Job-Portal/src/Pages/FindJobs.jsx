@@ -1,10 +1,6 @@
-import SearchBar from "../FIndJobs/SearchBar";
+import MultiInput from "../FIndJobs/MultiInput";
 const FindJobs = () => {
-  return (
-    <>
-      <SearchBar />
-    </>
-  );
+  return <MultiInput />;
 };
 
 export default FindJobs;
